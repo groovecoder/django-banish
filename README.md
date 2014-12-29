@@ -44,7 +44,7 @@ In your django project settings.py you must set the following options:
 
     3) Add BANISH_ENABLED = True to enable Django-Banish (handy if you lock yourself out, you can just set this to False)
     
-    4) ADD BANISH_EMPTY_UA = True|False to specify wether requests without a USER_AGENT header will be banned.
+    4) ADD BANISH_EMPTY_UA = True|False to specify whether requests without a USER_AGENT header will be banned.
 
     5) Optionally set BANISH_ABUSE_THRESHOLD (default is 75) to the threshold of requests per minute
 
